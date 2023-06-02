@@ -1,0 +1,4 @@
+<app-fruit-card class="card" *ngFor="let fruit of fruits" [fruit] = "fruit" (hoveredFruit)="item=$event">
+    
+</app-fruit-card>
+<app-extra-test [parentData]="item"></app-extra-test>
